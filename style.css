@@ -1,0 +1,26 @@
+:root{
+    --primary : #18191F;
+    --secondary : #4CAF4F;
+}
+
+.blackcolor{
+    color: var(--primary) !important;
+}
+
+.greencolor{
+    color: var(--secondary);
+}
+
+.greencolor:hover{
+color: var(--secondary);
+}
+
+.bggreen{
+    background-color: var(--secondary);
+    color: aliceblue;
+}
+
+.bggreen:hover{
+    background-color: var(--secondary);
+}
+
