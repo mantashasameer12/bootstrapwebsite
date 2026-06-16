@@ -1,26 +1,52 @@
-:root{
-    --primary : #18191F;
-    --secondary : #4CAF4F;
+:root {
+    --primary: #18191F;
+    --secondary: #4CAF4F;
 }
 
-.blackcolor{
+@font-face {
+    font-family: "inter";
+    src: url(./fonts/Inter_18pt-SemiBold.ttf);
+}
+
+.blackcolor {
     color: var(--primary) !important;
 }
 
-.greencolor{
+.greencolor {
     color: var(--secondary);
 }
 
-.greencolor:hover{
-color: var(--secondary);
+.greencolor:hover {
+    color: var(--secondary);
 }
 
-.bggreen{
+.bggreen {
     background-color: var(--secondary);
     color: aliceblue;
 }
 
-.bggreen:hover{
+.bggreen:hover {
     background-color: var(--secondary);
 }
 
+.h1color {
+    color: var(--secondary);
+    font-weight: bold;
+    font-family: "inter";
+}
+
+.Registerbutton {
+    background-color: var(--secondary);
+    margin-top: 12px;
+}
+
+.bg-hero{
+    background-color: #F5F7FA;
+}
+
+
+@media screen and (max-width:576px) {
+    .size {
+        width: 50%;
+    }
+}
