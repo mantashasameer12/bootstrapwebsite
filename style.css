@@ -44,6 +44,11 @@
     background-color: #F5F7FA;
 }
 
+.gapgap{
+    gap: 100px;
+}
+
+
 
 @media screen and (max-width:576px) {
     .size {
