@@ -48,6 +48,20 @@
     gap: 100px;
 }
 
+.customshadow{
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+
+}
+
+
+.feature{
+    color: #4CAF4F;
+}
+
+.h5color{
+    color: var(--secondary);
+}
+
 
 
 @media screen and (max-width:576px) {
