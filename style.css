@@ -62,10 +62,44 @@
     color: var(--secondary);
 }
 
+.btn-size{
+    width: 10%;
+}
 
+.footer{
+    background-color: #263238;
+}
+
+.distribute{
+    width: 30%;
+}
+
+.greycolor{
+    background-color:#515b60 !important;
+}
+
+.greycolor::placeholder{
+    color: white !important;
+}
+
+
+
+/* mobile */
 
 @media screen and (max-width:576px) {
     .size {
         width: 50%;
+    }
+    .btn-size{
+        width:50% ;
+    }
+}
+
+/* tablet */
+
+@media screen and (min-width:576px) and (max-width:786px){
+    
+    .btn-size{
+        width:25% ;
     }
 }
